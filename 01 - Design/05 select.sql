@@ -1,0 +1,1 @@
+SELECT datum, graden FROM weer.weersomstandigheden;
