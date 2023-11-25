@@ -24,7 +24,7 @@ services:
     environment:
       MYSQL_DATABASE: weer
       MYSQL_USER: weeruser
-      MYSQL_PASSWORD: weerUserp@$$w0rd
+      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: bfduvxijkn367GYUB_uibfesd#
     ports:
       - 3308:3306
