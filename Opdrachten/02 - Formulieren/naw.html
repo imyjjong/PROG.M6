@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naw form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/app.js"></script>
+</head>
+<body>
+    <form class="nawform" action="nawSave.php" method="POST">
+        <label for="name" class="nawform__label">naam
+        <input class="nawform__label--input" type="text" value="name" id="name" name="name"></label>
+
+        <label for="street" class="nawform__label">straat
+        <input class="nawform__label--input" type="text" value="street" id="street" name="street"></label>
+
+        <label for="huisnr" class="nawform__label">huisnummer
+        <input class="nawform__label--input" type="text" value="huisnr" id="huisnr" name="huisnr"></label>
+
+        <label for="postcode" class="nawform__label">postcode
+        <input class="nawform__label--input" type="text" value="postcode" id="postcode" name="postcode"></label>
+        
+        <label for="email" class="nawform__label">email
+        <input class="nawform__label--input" type="text" value="email" id="email" name="email"></label>
+
+        <input type="submit" class="nawform__submit">
+    </form>
+</body>
+</html>

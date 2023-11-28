@@ -52,4 +52,39 @@ body {
   font-size: 100%;
 }
 
+.nawform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  gap: 2rem;
+}
+.nawform__label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.nawform__label--input {
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid rgb(226, 209, 226);
+  color: white;
+  font-size: 90%;
+  padding: 1rem 0rem 0.5rem 0rem;
+}
+.nawform__label--input:focus {
+  outline: none;
+}
+.nawform__submit {
+  padding: 1rem 2rem;
+  background: rgb(212, 189, 206);
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
