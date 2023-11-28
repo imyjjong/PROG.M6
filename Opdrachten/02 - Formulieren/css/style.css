@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+
+.forms {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.forms__label {
+  font-weight: 600;
+  font-size: 120%;
+}
+.forms__input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 0.2rem solid rgb(200, 148, 187);
+  background: none;
+  color: white;
+}
+.forms__input:focus {
+  outline: none;
+}
+.forms__submit {
+  padding: 1rem 2rem;
+  background: rgb(212, 189, 206);
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
