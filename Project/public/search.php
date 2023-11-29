@@ -22,6 +22,9 @@
         echo "<p>Graden: ".$graden ."</p>";
         echo "<p>Windkracht: ".$windkracht ."</p>";
         echo "<p>Regen: ".$regen . "mm</p>";
+        echo '<form style="padding: 2rem 6rem;" action="search.html">';
+        echo '<input class="search__submit" type="submit" value="ga terug">';
+        echo "</form>";
         echo "</pre>";
         echo "</body>";
      }
