@@ -1,0 +1,33 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__label{
+        font-weight: 600;
+        font-size: 150%;
+    }
+    &__input{
+        border: none;
+        border-bottom: 0.2rem solid lightblue;
+        padding: 1rem 0rem;
+        background: none;
+        color: white;
+        font-size: 100%;
+
+        &:focus{
+            outline: none;
+        }
+    }
+    &__submit{
+        background: none;
+        color: white;
+        border: none;
+        font-size: 100%;
+
+        &:hover{
+            color: lightblue;
+        }
+    }
+}
