@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fetch</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script defer type="text/javascript" src="assets/js/appFetch.js"></script>
 </head>
 <body>
-    <form id="getForm" action="fetchGet.php">
-        <input type="text" name="article">
-        <input type="text" name="maxPrice">
-        <input type="submit">
+    <form id="getForm" class="fetchForm" action="fetchGet.php">
+        <input class="fetchForm__input" type="text" name="article">
+        <input class="fetchForm__input" type="text" name="maxPrice">
+        <input class="fetchForm__submit" type="submit">
     </form>
-    <form id="postForm" action="fetchPost.php">
-        <input type="text" name="article">
-        <input type="text" name="maxPrice">
-        <input type="submit">
+    <form id="postForm" class="fetchForm" action="fetchPost.php">
+        <input class="fetchForm__input" type="text" name="article">
+        <input class="fetchForm__input" type="text" name="maxPrice">
+        <input class="fetchForm__submit" type="submit">
     </form>
 </body>
 </html>

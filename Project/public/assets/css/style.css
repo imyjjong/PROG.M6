@@ -55,4 +55,36 @@ pre {
   color: lightblue;
 }
 
+.fetchForm {
+  width: 55rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.fetchForm__input {
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid lightblue;
+  width: 100%;
+  color: white;
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
+}
+.fetchForm__input:focus {
+  outline: none;
+}
+.fetchForm__submit {
+  border: none;
+  background: none;
+  color: white;
+  font-weight: 600;
+  font-size: 85%;
+}
+.fetchForm__submit:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
 /*# sourceMappingURL=style.css.map */

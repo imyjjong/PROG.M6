@@ -1,0 +1,37 @@
+@use "../../abstract/variables";
+
+.fetchForm{
+    width: 55rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    &__input{
+        background: none;
+        border: none;
+        border-bottom: 0.2rem solid variables.$borderColor;
+        width: 100%;
+        color: white;
+        padding: 1rem 0.5rem;
+        font-size: 2rem;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &__submit{
+        border: none;
+        background: none;
+        color: white;
+        font-weight: 600;
+        font-size: 85%;
+
+        &:hover{
+            cursor: pointer;
+            color: variables.$borderColor;
+        }
+    }
+}

@@ -44,7 +44,7 @@ function toPhpWithPost(event){
     {
         method: "POST",
         cache: "no-cache",
-        headers: {"Content-type": "application/json"},
+        headers: {"Content-type": "application/json", "Content-type": "text/css", "href": "assets/css/style.css"},   
         body: JSON.stringify(jsonForm)
     }
     fetch("fetchPost.php", options)
