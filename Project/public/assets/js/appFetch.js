@@ -46,7 +46,7 @@ function toPhpWithPost(event){
         cache: "no-cache",
         headers: {"Content-type": "application/json"},
         body: JSON.stringify(jsonForm)
-    };
+    }
     fetch("fetchPost.php", options)
     .then(async(response)=>{
         console.log(response);
