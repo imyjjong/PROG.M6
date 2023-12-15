@@ -22,8 +22,8 @@ services:
   mariadb:
     image: mariadb:latest
     environment:
-      MYSQL_DATABASE: weer
-      MYSQL_USER: weeruser
+      MYSQL_DATABASE: m6prog
+      MYSQL_USER: m6user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: bfduvxijkn367GYUB_uibfesd#
     ports:

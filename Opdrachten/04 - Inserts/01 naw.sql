@@ -1,4 +1,3 @@
-CREATE SCHEMA `m6prog`;
 USE `m6prog`;
 CREATE TABLE `naw`
 (

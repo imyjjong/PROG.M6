@@ -87,4 +87,11 @@ pre {
   color: lightblue;
 }
 
+.searchNaw {
+  background: red;
+}
+.searchNaw__php {
+  background: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
