@@ -30,10 +30,7 @@
                 $result = $stmt->get_result();
 
                 $searchResults = getQueryResultsAssoc($result);
-                echo '<link rel="stylesheet" href="assets/css/style.css">';
-                echo "<body>";
-                var_dump($searchResults);
-                echo "</body>";
+                return ($searchResults);
             }
             catch(ex){
                 echo "query error yk" . ex;
