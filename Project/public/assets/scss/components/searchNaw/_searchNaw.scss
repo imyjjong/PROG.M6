@@ -1,7 +1,42 @@
 .searchNaw{
-    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
 
-    &__php{
-        background: blue;
+    &__input{
+        border: none;
+        border-bottom: 0.2rem solid lightblue;
+        font-size: 2rem;
+        padding: 0.5rem;
+        background: none;
+        color: white;
+
+        &:focus{
+            outline: none;
+        }
     }
+
+    &__submit{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+
+        &:hover{
+            cursor: pointer;
+            color: lightblue;
+        }
+    }
+}
+
+.nawSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lightblue;
 }

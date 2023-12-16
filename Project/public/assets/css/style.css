@@ -88,10 +88,42 @@ pre {
 }
 
 .searchNaw {
-  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
 }
-.searchNaw__php {
-  background: blue;
+.searchNaw__input {
+  border: none;
+  border-bottom: 0.2rem solid lightblue;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background: none;
+  color: white;
+}
+.searchNaw__input:focus {
+  outline: none;
+}
+.searchNaw__submit {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.searchNaw__submit:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.nawSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: lightblue;
 }
 
 /*# sourceMappingURL=style.css.map */
