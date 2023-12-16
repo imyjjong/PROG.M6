@@ -126,4 +126,46 @@ pre {
   color: lightblue;
 }
 
+.nawForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 20rem;
+}
+.nawForm__label {
+  color: lightblue;
+}
+.nawForm__label--input {
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid lightblue;
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  color: white;
+}
+.nawForm__label--input:focus {
+  outline: none;
+}
+.nawForm__label--input::placeholder {
+  color: lightblue;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+.nawForm__submit {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+}
+.nawForm__submit:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
 /*# sourceMappingURL=style.css.map */
