@@ -14,6 +14,11 @@ nawForm.addEventListener("submit", (event) => {
     addPerson(event);
 });
 
+function onclick(){
+    document.getElementById("email").value = "";
+    document.getElementById("email").style.color = "white";
+}
+
 function addPerson(event){
     event.preventDefault();
     let form = event.target;
@@ -29,9 +34,21 @@ function addPerson(event){
     };
 
     fetch("nawSave.php", options)
-    .then(async(response) => {
-        console.log(response);
-        let json = await response.json();
-        console.log(json);
-    });
+    .then(response => response.json())
+    .then(data => {
+        if(false === data.success){
+            const email = document.getElementById("email");
+            email.value = "";
+            email.value = "email al in gebruik";
+            email.blur("1rem");
+            email.style.color = "red";
+            email.onclick = function(){
+                onclick();
+            }
+            return false;
+        }
+        console.log('ur data blah blah:' + data.id);
+    })
+    .catch(error => console.error(error))
+    
 };
