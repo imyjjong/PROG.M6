@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>image upload</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <form id="imageForm" enctype="multipart/form-data" action="imagerecieve.php" method="POST">
-        <input type="hidden" name="MAX_FILE_SIZE" value="30000000">
-        <input type="file" accept=".png" id="image" name="image" value=""><br>
-        <input type="submit" value="upload">
+    <form id="imageForm" class="imageForm" enctype="multipart/form-data" action="imagerecieve.php" method="POST">
+        <input class="imageForm__hidden" type="hidden" name="MAX_FILE_SIZE" value="30000000">
+        <input class="imageForm__file" type="file" accept=".png" id="image" name="image" value=""><br>
+        <input class="imageForm__submit" type="submit" value="upload">
     </form>
 </body>
 </html>

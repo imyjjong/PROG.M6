@@ -1,0 +1,33 @@
+.imageForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__file{
+        font-size: 70%;
+
+        &::-webkit-file-upload-button{
+            background: none;
+            border: none;
+            border-bottom: 0.2rem solid lightblue;
+            color: lightblue;
+            font-size: 2rem;
+            padding: 1rem 2rem;
+
+        }
+    }
+
+    &__submit{
+        border: none;
+        background: none;
+        font-size: 100%;
+        color: white;
+
+        &:hover{
+            cursor: pointer;
+            color: lightblue;
+        }
+    }
+
+}

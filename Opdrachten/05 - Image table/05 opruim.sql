@@ -1,0 +1,1 @@
+DELETE FROM imagetable WHERE uploadDateTime < DATE_ADD(NOW(), INTERVAL -7 DAY);

@@ -168,4 +168,32 @@ pre {
   color: lightblue;
 }
 
+.imageForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageForm__file {
+  font-size: 70%;
+}
+.imageForm__file::-webkit-file-upload-button {
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid lightblue;
+  color: lightblue;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.imageForm__submit {
+  border: none;
+  background: none;
+  font-size: 100%;
+  color: white;
+}
+.imageForm__submit:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
 /*# sourceMappingURL=style.css.map */
