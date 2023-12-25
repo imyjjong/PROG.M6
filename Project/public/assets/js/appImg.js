@@ -25,5 +25,13 @@ function uploadFormFile(event){
     fetch("imagerecieve.php", options)
     .then(async(response)=>{
         console.log(response);
+        let json = await response.json();
+        console.log(json);
+        showLink(json);
     });
 };
+
+function showLink(json){
+    document.getElementById("link").textContent = "download the image";
+    document.getElementById("link").setAttribute("href", json.downloadLink);
+}
