@@ -34,8 +34,8 @@
         }
         return[];
     }
+    
     $searchResults = findImage($connection,$filename);
-
 
     if(sizeof($searchResults) == 1){
         $filenamer = $searchResults[0]["path"];
