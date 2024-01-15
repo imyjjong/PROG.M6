@@ -9,7 +9,7 @@
     };
     
     function createLink($fileid){
-        $link = $_SERVER['HTTP_HOST']."/imagedownload.php?link=$fileid";
+        $link = "http://".$_SERVER['HTTP_HOST']."/imagedownload.php?link=$fileid";
         return $link;
     };
 
