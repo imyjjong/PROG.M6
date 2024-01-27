@@ -14,7 +14,7 @@
             "success" => false,
             "count" => $count["count"],
             "error" => "dit emailadres wordt al gebruikt"
-        ]);
+        ]);                                             
         return false;
     }
     $q = "INSERT INTO naw (naam, straat, huisnummer, postcode, email) VALUES (?,?,?,?,?);";
