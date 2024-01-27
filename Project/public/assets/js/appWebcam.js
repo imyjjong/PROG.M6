@@ -1,4 +1,4 @@
-import { WebCamHelper } from "./webcamhelperjs";
+import { WebCamHelper } from "./webcamhelper.js";
 
 class WebCamApp{
     constructor(){
